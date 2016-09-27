@@ -19,7 +19,7 @@ from django.http import (QueryDict, HttpResponse, HttpResponseRedirect,
                          parse_cookie)
 from django.test import TestCase
 from django.utils.deprecation import RemovedInDjango18Warning
-from django.utils.encoding import smart_str, force_text
+from django.utils.encoding import smart_str, force_text, force_str
 from django.utils.functional import lazy
 from django.utils._os import upath
 from django.utils import six
